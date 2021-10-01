@@ -21,6 +21,7 @@ export function TaskList() {
       id: Math.random(),
       title: newTaskTitle,
       isComplete: false,
+      
     }
     setTasks([...tasks, newTask]);
     setNewTaskTitle('');
